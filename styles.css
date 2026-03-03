@@ -1,7 +1,43 @@
 /* Add Global styles here */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333
 }
 header {
-    
+    background-color: rgb(0,0,255);
+    padding: 1rem 2rem;
+}
+nav {
+    display:block;
+    padding: 1rem 0;
+    background-color: rgb(0,0,255) 
+}
+nav ul {
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    gap:2rem;
+    flex-wrap:wrap;
+    padding:0;
+    margin:0;
+}
+nav ul li {
+    text-decoration: none;
+    color:white;
+}
+nav ul li a {
+    color:white;
+    padding: 0.5 rem 1 rem;
+    text-decoration:none;;
+}
+nav::hover {
+    text-shadow: darkblue 1px 0 10px;
+}
+.hero {
+    background-color: whitesmoke;
+}
+.hero h1 {
+    text-align: center;
+    padding: 2rem;
 }
