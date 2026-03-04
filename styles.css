@@ -29,10 +29,11 @@ nav ul li {
 nav ul li a {
     color:white;
     padding: 0.5 rem 1 rem;
-    text-decoration:none;;
+    text-decoration:none;
+    transition: 0.3s ease;
 }
 nav::hover {
-    text-shadow: darkblue 1px 0 10px;
+    background-color: rgb(108, 230, 185);
 }
 .hero {
     background-color: whitesmoke;
@@ -40,4 +41,18 @@ nav::hover {
 .hero h1 {
     text-align: center;
     padding: 2rem;
+}
+button {
+    background-color: rgb(255,0,255);
+    color:white;
+    border:none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+footer{
+    background-color:black;
+    color:white;
+    padding: 0.25em 1rem;
+    text-align: left;
+
 }
